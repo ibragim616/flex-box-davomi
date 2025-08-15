@@ -1,0 +1,85 @@
+.father {
+    background-color: white;
+    width: 1300px;
+    height: 1000px;
+    margin-top: 200px;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+body {
+    background-color: rgb(255, 201, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 240px;
+    height: 240px;
+    background-color: #995DB5;
+    display: flex;
+
+
+}
+
+.minicard {
+    width: 45px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #F7941F;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cards1 {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+
+.card3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card5 {
+    display: flex;
+    justify-content: start;
+}
+
+.card6 {
+    justify-content: end;
+    display: flex;
+}
+
+.card7 {
+    display: flex;
+    justify-content: center;
+}
+
+.card8 {
+    display: flex;
+    align-items: end;
+}
+
+.card9 {
+    display: flex;
+    align-items: center;
+}
